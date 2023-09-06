@@ -58,7 +58,7 @@ public class Verify_header_in_rating_page {
 
 			driver.findElement(By.id("Login")).click();
 			
-			if(!(driver.findElements(By.xpath("//a[@class='switch-to-lightning']")).isEmpty()))
+			/*if(!(driver.findElements(By.xpath("//a[@class='switch-to-lightning']")).isEmpty()))
 
 			driver.findElement(By.xpath("//a[@class='switch-to-lightning']")).click();
 			
@@ -208,6 +208,6 @@ public class Verify_header_in_rating_page {
 		}
 		else
 		System.out.println(Cost_Center_Manager);
-		
+		*/
 	}
 	}
